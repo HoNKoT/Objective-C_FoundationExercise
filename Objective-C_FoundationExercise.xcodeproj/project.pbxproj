@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
+		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
+		F58375D61EAEB95B0095D6FB /* InputUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputUtil.m; sourceTree = "<group>"; };
+		F58375D81EAEBAAE0095D6FB /* BaseAssignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAssignment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,20 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F58375D41EAEB93D0095D6FB /* utils */,
 				F58375CD1EAEB7F10095D6FB /* main.m */,
 			);
 			path = "Objective-C_FoundationExercise";
+			sourceTree = "<group>";
+		};
+		F58375D41EAEB93D0095D6FB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F58375D51EAEB95B0095D6FB /* InputUtil.h */,
+				F58375D61EAEB95B0095D6FB /* InputUtil.m */,
+				F58375D81EAEBAAE0095D6FB /* BaseAssignment.h */,
+			);
+			name = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +264,7 @@
 				F58375D31EAEB7F10095D6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

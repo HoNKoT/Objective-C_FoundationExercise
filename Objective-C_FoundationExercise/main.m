@@ -1,17 +1,35 @@
-//
-//  main.m
-//  Objective-C_FoundationExercise
-//
-//  Created by 本田裕規 on 2017-04-24.
-//  Copyright © 2017 本田裕規. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
+#import "InputUtil.h"
+#import "BaseAssignment.h"
+
+#define INITIAL_NAVIGATION_MESSAGE @"Please input assignment# (1-15) > "
+#define COMMAND_NOT_AVAILABLE @"Please input assignment# (1-15) > "
+#define COMMAND_EXIT @"Please input assignment# (1-15) > "
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int command = 0;
+        BaseAssignment *assignment;
+        
+        do {
+            command = [InputUtil getInputInt:INITIAL_NAVIGATION_MESSAGE];
+            
+            switch (command) {
+                case 0:
+                    NSLog(COMMAND_EXIT);
+                    break;
+//                case 1:
+//                    assignment = [Assignment01 init];
+//                    break;
+                default:
+                    NSLog(COMMAND_NOT_AVAILABLE);
+            }
+            
+            if (assignment != nil) {
+                [assignment execute];
+            }
+            
+        } while(command != 0);
     }
     return 0;
 }
