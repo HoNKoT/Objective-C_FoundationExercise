@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5A51EB139D7008B075B /* Assignment03.m */; };
+		F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5A81EB13A0B008B075B /* AdditionQuestion.m */; };
+		F52EF5AC1EB13E0D008B075B /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5AB1EB13E0D008B075B /* ScoreKeeper.m */; };
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
@@ -28,6 +31,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F52EF5A41EB139D7008B075B /* Assignment03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment03.h; sourceTree = "<group>"; };
+		F52EF5A51EB139D7008B075B /* Assignment03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment03.m; sourceTree = "<group>"; };
+		F52EF5A71EB13A0B008B075B /* AdditionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		F52EF5A81EB13A0B008B075B /* AdditionQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		F52EF5AA1EB13E0D008B075B /* ScoreKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		F52EF5AB1EB13E0D008B075B /* ScoreKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
@@ -53,6 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F52EF5A31EB139A7008B075B /* assignment03 */ = {
+			isa = PBXGroup;
+			children = (
+				F52EF5A41EB139D7008B075B /* Assignment03.h */,
+				F52EF5A51EB139D7008B075B /* Assignment03.m */,
+				F52EF5A71EB13A0B008B075B /* AdditionQuestion.h */,
+				F52EF5A81EB13A0B008B075B /* AdditionQuestion.m */,
+				F52EF5AA1EB13E0D008B075B /* ScoreKeeper.h */,
+				F52EF5AB1EB13E0D008B075B /* ScoreKeeper.m */,
+			);
+			name = assignment03;
+			sourceTree = "<group>";
+		};
 		F58375C11EAEB7F10095D6FB = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +94,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F52EF5A31EB139A7008B075B /* assignment03 */,
 				F58375F51EAEC5D00095D6FB /* assignment02 */,
 				F58375DB1EAEBD990095D6FB /* assignment01 */,
 				F58375D41EAEB93D0095D6FB /* utils */,
@@ -169,9 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
+				F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */,
+				F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
 				F58375FE1EAEC9B80095D6FB /* Box.m in Sources */,
+				F52EF5AC1EB13E0D008B075B /* ScoreKeeper.m in Sources */,
 				F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
 			);
