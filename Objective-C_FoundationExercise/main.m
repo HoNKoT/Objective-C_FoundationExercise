@@ -2,6 +2,7 @@
 #import "InputUtil.h"
 #import "BaseAssignment.h"
 #import "Assignment01.h"
+#import "Assignment02.h"
 
 #define INITIAL_NAVIGATION_MESSAGE @"Please input assignment# (1-15) > "
 #define COMMAND_NOT_AVAILABLE @"Please input assignment# (1-15) > "
@@ -21,6 +22,9 @@ int main(int argc, const char * argv[]) {
                     break;
                 case 1:
                     assignment = [[Assignment01 alloc] init];
+                    break;
+                case 2:
+                    assignment = [[Assignment02 alloc] init];
                     break;
                 default:
                     NSLog(COMMAND_NOT_AVAILABLE);

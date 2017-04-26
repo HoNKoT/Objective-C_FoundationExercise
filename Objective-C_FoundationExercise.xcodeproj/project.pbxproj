@@ -11,6 +11,8 @@
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
 		F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F31EAEC1520095D6FB /* BaseAssignment.m */; };
+		F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F71EAEC5F00095D6FB /* Assignment02.m */; };
+		F58375FE1EAEC9B80095D6FB /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375FD1EAEC9B80095D6FB /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,10 @@
 		F58375EF1EAEBE070095D6FB /* Assignment01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment01.h; sourceTree = "<group>"; };
 		F58375F01EAEBE070095D6FB /* Assignment01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment01.m; sourceTree = "<group>"; };
 		F58375F31EAEC1520095D6FB /* BaseAssignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAssignment.m; sourceTree = "<group>"; };
+		F58375F61EAEC5F00095D6FB /* Assignment02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment02.h; sourceTree = "<group>"; };
+		F58375F71EAEC5F00095D6FB /* Assignment02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment02.m; sourceTree = "<group>"; };
+		F58375FC1EAEC9B80095D6FB /* Box.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		F58375FD1EAEC9B80095D6FB /* Box.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F58375F51EAEC5D00095D6FB /* assignment02 */,
 				F58375DB1EAEBD990095D6FB /* assignment01 */,
 				F58375D41EAEB93D0095D6FB /* utils */,
 				F58375CD1EAEB7F10095D6FB /* main.m */,
@@ -91,6 +98,17 @@
 				F58375F01EAEBE070095D6FB /* Assignment01.m */,
 			);
 			name = assignment01;
+			sourceTree = "<group>";
+		};
+		F58375F51EAEC5D00095D6FB /* assignment02 */ = {
+			isa = PBXGroup;
+			children = (
+				F58375F61EAEC5F00095D6FB /* Assignment02.h */,
+				F58375F71EAEC5F00095D6FB /* Assignment02.m */,
+				F58375FC1EAEC9B80095D6FB /* Box.h */,
+				F58375FD1EAEC9B80095D6FB /* Box.m */,
+			);
+			name = assignment02;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
+				F58375FE1EAEC9B80095D6FB /* Box.m in Sources */,
 				F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
 			);
