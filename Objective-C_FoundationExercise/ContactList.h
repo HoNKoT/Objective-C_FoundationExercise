@@ -28,7 +28,6 @@
  NSLog(@"%s", box__ == nil ? "nil" : "iiyo"); // can get instance (box1)
  Box *box___ = _list[1];
  NSLog(@"%s", box___ == nil ? "nil" : "iiyo"); // Out bounds Exception!!
- 
  */
 @property NSMutableArray *list;
 
