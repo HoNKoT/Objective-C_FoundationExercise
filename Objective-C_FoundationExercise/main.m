@@ -1,11 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "InputUtil.h"
 #import "BaseAssignment.h"
-#import "Assignment01.h"
-#import "Assignment02.h"
-#import "Assignment03.h"
-#import "Assignment04.h"
-#import "Assignment05.h"
 
 #define INITIAL_NAVIGATION_MESSAGE @"Please input assignment# (1-15) > "
 #define COMMAND_NOT_AVAILABLE @"Please input assignment# (1-15) > "
@@ -13,35 +8,20 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        NSArray *questions = @[
+                               @"Assignment01",
+                               @"Assignment02",
+                               @"Assignment03",
+                               @"Assignment04",
+                               @"Assignment05",
+                               ];
+        
         int command = 0;
         BaseAssignment *assignment;
-        
         do {
             command = [InputUtil getInputInt:INITIAL_NAVIGATION_MESSAGE];
-            
-            switch (command) {
-                case 0:
-                    NSLog(COMMAND_EXIT);
-                    break;
-                case 1:
-                    assignment = [[Assignment01 alloc] init];
-                    break;
-                case 2:
-                    assignment = [[Assignment02 alloc] init];
-                    break;
-                case 3:
-                    assignment = [[Assignment03 alloc] init];
-                    break;
-                case 4:
-                    assignment = [[Assignment04 alloc] init];
-                    break;
-                case 5:
-                    assignment = [[Assignment05 alloc] init];
-                    break;
-                default:
-                    NSLog(COMMAND_NOT_AVAILABLE);
-            }
-            
+            assignment = [[NSClassFromString(questions[command - 1]) alloc]init];
+
             if (assignment != nil) {
                 [assignment execute];
             }
