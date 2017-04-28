@@ -14,6 +14,7 @@ int main(int argc, const char * argv[]) {
                                @"Assignment03",
                                @"Assignment04",
                                @"Assignment05",
+                               @"Assignment06",
                                ];
         
         int command = 0;
