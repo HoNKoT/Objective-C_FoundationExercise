@@ -11,6 +11,9 @@
 		F5063E411EB3E7E000291529 /* Dice.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E401EB3E7E000291529 /* Dice.m */; };
 		F5063E441EB3EA6600291529 /* ThreelowPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E431EB3EA6600291529 /* ThreelowPlayer.m */; };
 		F5063E471EB3EEE400291529 /* ThreelowGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E461EB3EEE400291529 /* ThreelowGameController.m */; };
+		F5063E4B1EB40E9A00291529 /* Assignment07.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E4A1EB40E9A00291529 /* Assignment07.m */; };
+		F5063E4E1EB40EDC00291529 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E4D1EB40EDC00291529 /* Doctor.m */; };
+		F5063E511EB40EED00291529 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = F5063E501EB40EED00291529 /* Patient.m */; };
 		F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5A51EB139D7008B075B /* Assignment03.m */; };
 		F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5A81EB13A0B008B075B /* AdditionQuestion.m */; };
 		F52EF5AC1EB13E0D008B075B /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5AB1EB13E0D008B075B /* ScoreKeeper.m */; };
@@ -50,6 +53,12 @@
 		F5063E431EB3EA6600291529 /* ThreelowPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreelowPlayer.m; sourceTree = "<group>"; };
 		F5063E451EB3EEE400291529 /* ThreelowGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreelowGameController.h; sourceTree = "<group>"; };
 		F5063E461EB3EEE400291529 /* ThreelowGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreelowGameController.m; sourceTree = "<group>"; };
+		F5063E491EB40E9A00291529 /* Assignment07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment07.h; sourceTree = "<group>"; };
+		F5063E4A1EB40E9A00291529 /* Assignment07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment07.m; sourceTree = "<group>"; };
+		F5063E4C1EB40EDC00291529 /* Doctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
+		F5063E4D1EB40EDC00291529 /* Doctor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		F5063E4F1EB40EED00291529 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		F5063E501EB40EED00291529 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		F52EF5A41EB139D7008B075B /* Assignment03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment03.h; sourceTree = "<group>"; };
 		F52EF5A51EB139D7008B075B /* Assignment03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment03.m; sourceTree = "<group>"; };
 		F52EF5A71EB13A0B008B075B /* AdditionQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
@@ -110,6 +119,19 @@
 			name = assignment06;
 			sourceTree = "<group>";
 		};
+		F5063E481EB40E8000291529 /* assignment07 */ = {
+			isa = PBXGroup;
+			children = (
+				F5063E491EB40E9A00291529 /* Assignment07.h */,
+				F5063E4A1EB40E9A00291529 /* Assignment07.m */,
+				F5063E4C1EB40EDC00291529 /* Doctor.h */,
+				F5063E4D1EB40EDC00291529 /* Doctor.m */,
+				F5063E4F1EB40EED00291529 /* Patient.h */,
+				F5063E501EB40EED00291529 /* Patient.m */,
+			);
+			name = assignment07;
+			sourceTree = "<group>";
+		};
 		F52EF5A31EB139A7008B075B /* assignment03 */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +177,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F5063E481EB40E8000291529 /* assignment07 */,
 				F5063E3B1EB3E76E00291529 /* assignment06 */,
 				F5BB777F1EB2979000385312 /* assignment05 */,
 				F52EF5AD1EB148CC008B075B /* assignment04 */,
@@ -270,7 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5063E4E1EB40EDC00291529 /* Doctor.m in Sources */,
 				F5063E411EB3E7E000291529 /* Dice.m in Sources */,
+				F5063E511EB40EED00291529 /* Patient.m in Sources */,
 				F52EF5B01EB148E8008B075B /* Assignment04.m in Sources */,
 				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
 				F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */,
@@ -281,6 +306,7 @@
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
+				F5063E4B1EB40E9A00291529 /* Assignment07.m in Sources */,
 				F5063E471EB3EEE400291529 /* ThreelowGameController.m in Sources */,
 				F58375FE1EAEC9B80095D6FB /* Box.m in Sources */,
 				F5BB77851EB298F400385312 /* QuestionManager.m in Sources */,
