@@ -30,6 +30,8 @@
 		F5BB77851EB298F400385312 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB77841EB298F400385312 /* QuestionManager.m */; };
 		F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB779A1EB29A1F00385312 /* QuestionFactory.m */; };
 		F5BB779E1EB29B1900385312 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB779D1EB29B1900385312 /* Question.m */; };
+		F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0255A1EB7EED8005D255A /* Assignment08.m */; };
+		F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0255D1EB7EEEF005D255A /* Pizza.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +93,10 @@
 		F5BB779A1EB29A1F00385312 /* QuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 		F5BB779C1EB29B1900385312 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		F5BB779D1EB29B1900385312 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		F5F025591EB7EED8005D255A /* Assignment08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment08.h; sourceTree = "<group>"; };
+		F5F0255A1EB7EED8005D255A /* Assignment08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment08.m; sourceTree = "<group>"; };
+		F5F0255C1EB7EEEF005D255A /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
+		F5F0255D1EB7EEEF005D255A /* Pizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizza.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +183,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F5F025581EB7EEBF005D255A /* assignment08 */,
 				F5063E481EB40E8000291529 /* assignment07 */,
 				F5063E3B1EB3E76E00291529 /* assignment06 */,
 				F5BB777F1EB2979000385312 /* assignment05 */,
@@ -234,6 +241,17 @@
 				F5BB779D1EB29B1900385312 /* Question.m */,
 			);
 			name = assignment05;
+			sourceTree = "<group>";
+		};
+		F5F025581EB7EEBF005D255A /* assignment08 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F025591EB7EED8005D255A /* Assignment08.h */,
+				F5F0255A1EB7EED8005D255A /* Assignment08.m */,
+				F5F0255C1EB7EEEF005D255A /* Pizza.h */,
+				F5F0255D1EB7EEEF005D255A /* Pizza.m */,
+			);
+			name = assignment08;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +321,7 @@
 				F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */,
 				F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */,
 				F52EF5B61EB14FE4008B075B /* Contact.m in Sources */,
+				F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */,
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
@@ -315,6 +334,7 @@
 				F5BB779E1EB29B1900385312 /* Question.m in Sources */,
 				F5BB77821EB2988000385312 /* Assignment05.m in Sources */,
 				F5063E3E1EB3E79A00291529 /* Assignment06.m in Sources */,
+				F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
