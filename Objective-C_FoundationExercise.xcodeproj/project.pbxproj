@@ -22,6 +22,11 @@
 		F52EF5B61EB14FE4008B075B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5B51EB14FE4008B075B /* Contact.m */; };
 		F567E0C31EBA7615009C4947 /* Assignment09.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0C21EBA7615009C4947 /* Assignment09.m */; };
 		F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0C81EBA777E009C4947 /* FriendlyGreetingDecider.m */; };
+		F567E0D31EBA7BBC009C4947 /* Assignment10.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0D21EBA7BBC009C4947 /* Assignment10.m */; };
+		F567E0D91EBA7F2D009C4947 /* StripePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0D81EBA7F2D009C4947 /* StripePaymentService.m */; };
+		F567E0DC1EBA802B009C4947 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0DB1EBA802B009C4947 /* PaypalPaymentService.m */; };
+		F567E0DF1EBA8052009C4947 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0DE1EBA8052009C4947 /* AmazonPaymentService.m */; };
+		F567E0E21EBA8D63009C4947 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0E11EBA8D63009C4947 /* ApplePaymentService.m */; };
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
@@ -80,6 +85,17 @@
 		F567E0C41EBA7661009C4947 /* TestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDelegate.h; sourceTree = "<group>"; };
 		F567E0C71EBA777E009C4947 /* FriendlyGreetingDecider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendlyGreetingDecider.h; sourceTree = "<group>"; };
 		F567E0C81EBA777E009C4947 /* FriendlyGreetingDecider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreetingDecider.m; sourceTree = "<group>"; };
+		F567E0D11EBA7BBC009C4947 /* Assignment10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment10.h; sourceTree = "<group>"; };
+		F567E0D21EBA7BBC009C4947 /* Assignment10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment10.m; sourceTree = "<group>"; };
+		F567E0D41EBA7DD3009C4947 /* PaymentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentDelegate.h; sourceTree = "<group>"; };
+		F567E0D71EBA7F2D009C4947 /* StripePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StripePaymentService.h; sourceTree = "<group>"; };
+		F567E0D81EBA7F2D009C4947 /* StripePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StripePaymentService.m; sourceTree = "<group>"; };
+		F567E0DA1EBA802B009C4947 /* PaypalPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalPaymentService.h; sourceTree = "<group>"; };
+		F567E0DB1EBA802B009C4947 /* PaypalPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalPaymentService.m; sourceTree = "<group>"; };
+		F567E0DD1EBA8052009C4947 /* AmazonPaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmazonPaymentService.h; sourceTree = "<group>"; };
+		F567E0DE1EBA8052009C4947 /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
+		F567E0E01EBA8D63009C4947 /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
+		F567E0E11EBA8D63009C4947 /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
@@ -183,6 +199,24 @@
 			name = assignment09;
 			sourceTree = "<group>";
 		};
+		F567E0D01EBA7BA7009C4947 /* assignment10 */ = {
+			isa = PBXGroup;
+			children = (
+				F567E0D11EBA7BBC009C4947 /* Assignment10.h */,
+				F567E0D21EBA7BBC009C4947 /* Assignment10.m */,
+				F567E0D41EBA7DD3009C4947 /* PaymentDelegate.h */,
+				F567E0D71EBA7F2D009C4947 /* StripePaymentService.h */,
+				F567E0D81EBA7F2D009C4947 /* StripePaymentService.m */,
+				F567E0DA1EBA802B009C4947 /* PaypalPaymentService.h */,
+				F567E0DB1EBA802B009C4947 /* PaypalPaymentService.m */,
+				F567E0DD1EBA8052009C4947 /* AmazonPaymentService.h */,
+				F567E0DE1EBA8052009C4947 /* AmazonPaymentService.m */,
+				F567E0E01EBA8D63009C4947 /* ApplePaymentService.h */,
+				F567E0E11EBA8D63009C4947 /* ApplePaymentService.m */,
+			);
+			name = assignment10;
+			sourceTree = "<group>";
+		};
 		F58375C11EAEB7F10095D6FB = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +236,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F567E0D01EBA7BA7009C4947 /* assignment10 */,
 				F567E0C01EBA75FC009C4947 /* assignment09 */,
 				F5F025581EB7EEBF005D255A /* assignment08 */,
 				F5063E481EB40E8000291529 /* assignment07 */,
@@ -337,6 +372,8 @@
 				F52EF5B01EB148E8008B075B /* Assignment04.m in Sources */,
 				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
 				F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */,
+				F567E0DF1EBA8052009C4947 /* AmazonPaymentService.m in Sources */,
+				F567E0DC1EBA802B009C4947 /* PaypalPaymentService.m in Sources */,
 				F5063E441EB3EA6600291529 /* ThreelowPlayer.m in Sources */,
 				F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */,
 				F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */,
@@ -346,6 +383,7 @@
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
 				F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
+				F567E0E21EBA8D63009C4947 /* ApplePaymentService.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
 				F5063E4B1EB40E9A00291529 /* Assignment07.m in Sources */,
 				F5063E471EB3EEE400291529 /* ThreelowGameController.m in Sources */,
@@ -356,8 +394,10 @@
 				F5BB779E1EB29B1900385312 /* Question.m in Sources */,
 				F5BB77821EB2988000385312 /* Assignment05.m in Sources */,
 				F5063E3E1EB3E79A00291529 /* Assignment06.m in Sources */,
+				F567E0D91EBA7F2D009C4947 /* StripePaymentService.m in Sources */,
 				F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
+				F567E0D31EBA7BBC009C4947 /* Assignment10.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
