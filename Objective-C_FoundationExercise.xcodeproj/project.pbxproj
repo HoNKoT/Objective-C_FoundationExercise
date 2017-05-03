@@ -20,6 +20,8 @@
 		F52EF5B01EB148E8008B075B /* Assignment04.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5AF1EB148E8008B075B /* Assignment04.m */; };
 		F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5B21EB14A1E008B075B /* ContactList.m */; };
 		F52EF5B61EB14FE4008B075B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = F52EF5B51EB14FE4008B075B /* Contact.m */; };
+		F567E0C31EBA7615009C4947 /* Assignment09.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0C21EBA7615009C4947 /* Assignment09.m */; };
+		F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0C81EBA777E009C4947 /* FriendlyGreetingDecider.m */; };
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
@@ -73,6 +75,11 @@
 		F52EF5B21EB14A1E008B075B /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
 		F52EF5B41EB14FE4008B075B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		F52EF5B51EB14FE4008B075B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		F567E0C11EBA7615009C4947 /* Assignment09.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment09.h; sourceTree = "<group>"; };
+		F567E0C21EBA7615009C4947 /* Assignment09.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment09.m; sourceTree = "<group>"; };
+		F567E0C41EBA7661009C4947 /* TestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDelegate.h; sourceTree = "<group>"; };
+		F567E0C71EBA777E009C4947 /* FriendlyGreetingDecider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendlyGreetingDecider.h; sourceTree = "<group>"; };
+		F567E0C81EBA777E009C4947 /* FriendlyGreetingDecider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendlyGreetingDecider.m; sourceTree = "<group>"; };
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
@@ -164,6 +171,18 @@
 			name = assignment04;
 			sourceTree = "<group>";
 		};
+		F567E0C01EBA75FC009C4947 /* assignment09 */ = {
+			isa = PBXGroup;
+			children = (
+				F567E0C11EBA7615009C4947 /* Assignment09.h */,
+				F567E0C21EBA7615009C4947 /* Assignment09.m */,
+				F567E0C41EBA7661009C4947 /* TestDelegate.h */,
+				F567E0C71EBA777E009C4947 /* FriendlyGreetingDecider.h */,
+				F567E0C81EBA777E009C4947 /* FriendlyGreetingDecider.m */,
+			);
+			name = assignment09;
+			sourceTree = "<group>";
+		};
 		F58375C11EAEB7F10095D6FB = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +202,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F567E0C01EBA75FC009C4947 /* assignment09 */,
 				F5F025581EB7EEBF005D255A /* assignment08 */,
 				F5063E481EB40E8000291529 /* assignment07 */,
 				F5063E3B1EB3E76E00291529 /* assignment06 */,
@@ -320,9 +340,11 @@
 				F5063E441EB3EA6600291529 /* ThreelowPlayer.m in Sources */,
 				F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */,
 				F52EF5A61EB139D7008B075B /* Assignment03.m in Sources */,
+				F567E0C31EBA7615009C4947 /* Assignment09.m in Sources */,
 				F52EF5B61EB14FE4008B075B /* Contact.m in Sources */,
 				F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */,
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
+				F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
 				F5063E4B1EB40E9A00291529 /* Assignment07.m in Sources */,
