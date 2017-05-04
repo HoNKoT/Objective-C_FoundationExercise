@@ -34,6 +34,8 @@
 		F567E0FC1EBBD4DB009C4947 /* GoodManManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0FB1EBBD4DB009C4947 /* GoodManManager.m */; };
 		F567E0FF1EBBDED9009C4947 /* DeliveryService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0FE1EBBDED9009C4947 /* DeliveryService.m */; };
 		F567E1021EBBDF36009C4947 /* DeliveryCar.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1011EBBDF36009C4947 /* DeliveryCar.m */; };
+		F567E1061EBBE8A2009C4947 /* Assignment13.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1051EBBE8A2009C4947 /* Assignment13.m */; };
+		F567E1091EBBE8E9009C4947 /* CustomNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E1081EBBE8E9009C4947 /* CustomNSString.m */; };
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
@@ -118,6 +120,10 @@
 		F567E0FE1EBBDED9009C4947 /* DeliveryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryService.m; sourceTree = "<group>"; };
 		F567E1001EBBDF36009C4947 /* DeliveryCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliveryCar.h; sourceTree = "<group>"; };
 		F567E1011EBBDF36009C4947 /* DeliveryCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliveryCar.m; sourceTree = "<group>"; };
+		F567E1041EBBE8A2009C4947 /* Assignment13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment13.h; sourceTree = "<group>"; };
+		F567E1051EBBE8A2009C4947 /* Assignment13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment13.m; sourceTree = "<group>"; };
+		F567E1071EBBE8E9009C4947 /* CustomNSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNSString.h; sourceTree = "<group>"; };
+		F567E1081EBBE8E9009C4947 /* CustomNSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNSString.m; sourceTree = "<group>"; };
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
@@ -261,6 +267,17 @@
 			name = assignment11and12;
 			sourceTree = "<group>";
 		};
+		F567E1031EBBE887009C4947 /* assignment13 */ = {
+			isa = PBXGroup;
+			children = (
+				F567E1041EBBE8A2009C4947 /* Assignment13.h */,
+				F567E1051EBBE8A2009C4947 /* Assignment13.m */,
+				F567E1071EBBE8E9009C4947 /* CustomNSString.h */,
+				F567E1081EBBE8E9009C4947 /* CustomNSString.m */,
+			);
+			name = assignment13;
+			sourceTree = "<group>";
+		};
 		F58375C11EAEB7F10095D6FB = {
 			isa = PBXGroup;
 			children = (
@@ -280,6 +297,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F567E1031EBBE887009C4947 /* assignment13 */,
 				F567E0E31EBA8E48009C4947 /* assignment11and12 */,
 				F567E0D01EBA7BA7009C4947 /* assignment10 */,
 				F567E0C01EBA75FC009C4947 /* assignment09 */,
@@ -435,12 +453,14 @@
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F567E0E21EBA8D63009C4947 /* ApplePaymentService.m in Sources */,
 				F58375CE1EAEB7F10095D6FB /* main.m in Sources */,
+				F567E1091EBBE8E9009C4947 /* CustomNSString.m in Sources */,
 				F5063E4B1EB40E9A00291529 /* Assignment07.m in Sources */,
 				F5063E471EB3EEE400291529 /* ThreelowGameController.m in Sources */,
 				F58375FE1EAEC9B80095D6FB /* Box.m in Sources */,
 				F5BB77851EB298F400385312 /* QuestionManager.m in Sources */,
 				F52EF5AC1EB13E0D008B075B /* ScoreKeeper.m in Sources */,
 				F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */,
+				F567E1061EBBE8A2009C4947 /* Assignment13.m in Sources */,
 				F5BB779E1EB29B1900385312 /* Question.m in Sources */,
 				F5BB77821EB2988000385312 /* Assignment05.m in Sources */,
 				F5063E3E1EB3E79A00291529 /* Assignment06.m in Sources */,
