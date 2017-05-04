@@ -15,5 +15,6 @@ typedef NS_ENUM (NSUInteger, State) {
 - (bool) assign:(Pizza *)pizza;
 - (void) ready;
 - (void) breakTime;
+- (void) deliver;
 
 @end

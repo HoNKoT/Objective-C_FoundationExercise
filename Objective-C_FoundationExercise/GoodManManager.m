@@ -20,6 +20,7 @@
 
 - (void)kitchenDidMakePizza {
     NSLog(@"<<< HAVE A GOOD DAY!! >>>");
+    [super deliver];
     [super ready];
 }
 

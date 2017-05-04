@@ -1,4 +1,5 @@
 #import "Manager.h"
+#import "DeliveryService.h"
 
 @implementation Manager
 
@@ -28,4 +29,8 @@
     _state = [NSNumber numberWithInt:Breaking];
 }
 
+- (void) deliver {
+    DeliveryService *deliveryService = [[DeliveryService alloc] init];
+    [deliveryService deliverPizza:_pizza];
+}
 @end

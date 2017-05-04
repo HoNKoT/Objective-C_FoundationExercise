@@ -18,6 +18,7 @@
 }
 
 - (void)kitchenDidMakePizza {
+    [super deliver];
     [super ready];
 }
 

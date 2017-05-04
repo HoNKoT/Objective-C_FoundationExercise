@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
                                @"Assignment09",
                                @"Assignment10",
                                @"Assignment11",
-                               @"Assignment12",
+                               @"Assignment11", // 11 and 12 is sharing same project
                                @"Assignment13",
                                @"Assignment14",
                                ];
