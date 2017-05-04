@@ -8,6 +8,7 @@ typedef NS_ENUM (NSUInteger, Topping) {
     Pineapple,
     Kimuti,
     Tuna,
+    Anchovies,
 };
 
 // toppingから文字列を取得
@@ -15,7 +16,7 @@ typedef NS_ENUM (NSUInteger, Topping) {
 // 文字列からtoppingを取得
 #define GetTopping(toppingText) (Topping)[ToppingTextList indexOfObject:toppingText]
 // toppingの文字列リスト
-#define ToppingTextList @[@"cheese", @"ham", @"pineapple", @"kimuti", @"tuna"]
+#define ToppingTextList @[@"cheese", @"ham", @"pineapple", @"kimuti", @"tuna", @"anchovies"]
 
 typedef NS_ENUM (NSUInteger, PizzaSize) {
     Altimate,
@@ -38,5 +39,7 @@ typedef NS_ENUM (NSUInteger, PizzaSize) {
 
 - (instancetype)initWithUserInput:(NSString *) inputText;
 - (bool) requireAll;
+- (bool) hasTopping:(Topping)topping;
+- (bool) isSizeOf:(PizzaSize)pizzaSize;
 
 @end

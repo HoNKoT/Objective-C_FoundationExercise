@@ -55,6 +55,20 @@
     return false;
 }
 
+- (bool) hasTopping:(Topping)topping {
+    for (NSNumber *toppingNumber in _toppings) {
+        if ([toppingNumber intValue] == topping){
+            return true;
+        }
+    }
+    
+    return false;
+}
+
+- (bool)isSizeOf:(PizzaSize)pizzaSize {
+    return _pizzaSize != nil && [_pizzaSize intValue] == pizzaSize;
+}
+
 - (bool) requireAll {
     return _pizzaSize != nil && _toppings.count > 0;
 }

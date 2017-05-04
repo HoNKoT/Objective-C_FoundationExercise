@@ -27,6 +27,11 @@
 		F567E0DC1EBA802B009C4947 /* PaypalPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0DB1EBA802B009C4947 /* PaypalPaymentService.m */; };
 		F567E0DF1EBA8052009C4947 /* AmazonPaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0DE1EBA8052009C4947 /* AmazonPaymentService.m */; };
 		F567E0E21EBA8D63009C4947 /* ApplePaymentService.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0E11EBA8D63009C4947 /* ApplePaymentService.m */; };
+		F567E0E61EBA8E5A009C4947 /* Assignment11.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0E51EBA8E5A009C4947 /* Assignment11.m */; };
+		F567E0ED1EBA99B5009C4947 /* HateAnchovieManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0EC1EBA99B5009C4947 /* HateAnchovieManager.m */; };
+		F567E0F61EBAA12C009C4947 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0F51EBAA12C009C4947 /* Manager.m */; };
+		F567E0F91EBBCD65009C4947 /* Kitchen.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0F81EBBCD65009C4947 /* Kitchen.m */; };
+		F567E0FC1EBBD4DB009C4947 /* GoodManManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F567E0FB1EBBD4DB009C4947 /* GoodManManager.m */; };
 		F58375CE1EAEB7F10095D6FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375CD1EAEB7F10095D6FB /* main.m */; };
 		F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375D61EAEB95B0095D6FB /* InputUtil.m */; };
 		F58375F11EAEBE070095D6FB /* Assignment01.m in Sources */ = {isa = PBXBuildFile; fileRef = F58375F01EAEBE070095D6FB /* Assignment01.m */; };
@@ -96,6 +101,17 @@
 		F567E0DE1EBA8052009C4947 /* AmazonPaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmazonPaymentService.m; sourceTree = "<group>"; };
 		F567E0E01EBA8D63009C4947 /* ApplePaymentService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePaymentService.h; sourceTree = "<group>"; };
 		F567E0E11EBA8D63009C4947 /* ApplePaymentService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePaymentService.m; sourceTree = "<group>"; };
+		F567E0E41EBA8E5A009C4947 /* Assignment11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment11.h; sourceTree = "<group>"; };
+		F567E0E51EBA8E5A009C4947 /* Assignment11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment11.m; sourceTree = "<group>"; };
+		F567E0E71EBA8EA8009C4947 /* KitchenDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KitchenDelegate.h; sourceTree = "<group>"; };
+		F567E0EB1EBA99B5009C4947 /* HateAnchovieManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HateAnchovieManager.h; sourceTree = "<group>"; };
+		F567E0EC1EBA99B5009C4947 /* HateAnchovieManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HateAnchovieManager.m; sourceTree = "<group>"; };
+		F567E0F41EBAA12C009C4947 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		F567E0F51EBAA12C009C4947 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		F567E0F71EBBCD65009C4947 /* Kitchen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kitchen.h; sourceTree = "<group>"; };
+		F567E0F81EBBCD65009C4947 /* Kitchen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kitchen.m; sourceTree = "<group>"; };
+		F567E0FA1EBBD4DB009C4947 /* GoodManManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodManManager.h; sourceTree = "<group>"; };
+		F567E0FB1EBBD4DB009C4947 /* GoodManManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodManManager.m; sourceTree = "<group>"; };
 		F58375CA1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C_FoundationExercise"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58375CD1EAEB7F10095D6FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F58375D51EAEB95B0095D6FB /* InputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputUtil.h; sourceTree = "<group>"; };
@@ -217,6 +233,24 @@
 			name = assignment10;
 			sourceTree = "<group>";
 		};
+		F567E0E31EBA8E48009C4947 /* assignment11 */ = {
+			isa = PBXGroup;
+			children = (
+				F567E0E41EBA8E5A009C4947 /* Assignment11.h */,
+				F567E0E51EBA8E5A009C4947 /* Assignment11.m */,
+				F567E0E71EBA8EA8009C4947 /* KitchenDelegate.h */,
+				F567E0EB1EBA99B5009C4947 /* HateAnchovieManager.h */,
+				F567E0EC1EBA99B5009C4947 /* HateAnchovieManager.m */,
+				F567E0F71EBBCD65009C4947 /* Kitchen.h */,
+				F567E0F81EBBCD65009C4947 /* Kitchen.m */,
+				F567E0F41EBAA12C009C4947 /* Manager.h */,
+				F567E0F51EBAA12C009C4947 /* Manager.m */,
+				F567E0FA1EBBD4DB009C4947 /* GoodManManager.h */,
+				F567E0FB1EBBD4DB009C4947 /* GoodManManager.m */,
+			);
+			name = assignment11;
+			sourceTree = "<group>";
+		};
 		F58375C11EAEB7F10095D6FB = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +270,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F567E0E31EBA8E48009C4947 /* assignment11 */,
 				F567E0D01EBA7BA7009C4947 /* assignment10 */,
 				F567E0C01EBA75FC009C4947 /* assignment09 */,
 				F5F025581EB7EEBF005D255A /* assignment08 */,
@@ -373,6 +408,7 @@
 				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
 				F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */,
 				F567E0DF1EBA8052009C4947 /* AmazonPaymentService.m in Sources */,
+				F567E0F61EBAA12C009C4947 /* Manager.m in Sources */,
 				F567E0DC1EBA802B009C4947 /* PaypalPaymentService.m in Sources */,
 				F5063E441EB3EA6600291529 /* ThreelowPlayer.m in Sources */,
 				F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */,
@@ -381,6 +417,8 @@
 				F52EF5B61EB14FE4008B075B /* Contact.m in Sources */,
 				F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */,
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
+				F567E0E61EBA8E5A009C4947 /* Assignment11.m in Sources */,
+				F567E0ED1EBA99B5009C4947 /* HateAnchovieManager.m in Sources */,
 				F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
 				F567E0E21EBA8D63009C4947 /* ApplePaymentService.m in Sources */,
@@ -397,7 +435,9 @@
 				F567E0D91EBA7F2D009C4947 /* StripePaymentService.m in Sources */,
 				F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
+				F567E0FC1EBBD4DB009C4947 /* GoodManManager.m in Sources */,
 				F567E0D31EBA7BBC009C4947 /* Assignment10.m in Sources */,
+				F567E0F91EBBCD65009C4947 /* Kitchen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
