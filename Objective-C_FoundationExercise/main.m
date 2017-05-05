@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
                                @"Assignment11", // 11 and 12 is sharing same project
                                @"Assignment13",
                                @"Assignment14",
+                               @"Assignment14", // 14 and 15 is sharing same project
                                ];
         
         int command = 0;

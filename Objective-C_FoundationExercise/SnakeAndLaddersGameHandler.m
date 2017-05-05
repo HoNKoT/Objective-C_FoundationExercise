@@ -12,18 +12,15 @@
     self = [super init];
     if (self) {
         _jumpEvents = [[NSMutableDictionary alloc] init];
-        _players = [[NSMutableArray alloc] init];
-        _activePlayerIndex = 0;
-        
-        [self initializePlayer];
+        [self removeAllPlayer];
         [self initializeJumpEvent];
         
     }
     return self;
 }
 
-- (void) initializePlayer {
-    SnakeAndLaddersPlayer *player1 = [[SnakeAndLaddersPlayer alloc] initWithPlayerName:@"Honda"];
+- (void) addPlayer:(NSString *)name {
+    SnakeAndLaddersPlayer *player1 = [[SnakeAndLaddersPlayer alloc] initWithPlayerName:name];
     [_players addObject:player1];
 }
 
@@ -80,11 +77,14 @@
         [delegate displayEvent];
 
         player.stopSquareNumber = jumpEvent.to;
+
+    } else {
+        [self displayActivePlayer];
     }
 }
 
 - (void) nextPlayer {
-    if (_players.count >= ++_activePlayerIndex) {
+    if (_players.count <= ++_activePlayerIndex) {
         _activePlayerIndex = 0;
     }
 }
@@ -96,7 +96,21 @@
     }
 }
 
-- (bool)someoneGetsGoal {
+- (void) displayAllPlayersScore {
+    NSMutableString *buf = [[NSMutableString alloc] init];
+    int index = 0;
+    [buf setString:@"Score: "];
+    for (SnakeAndLaddersPlayer *player in _players) {
+        if (index++ > 0) {
+            [buf appendString:@", "];
+        }
+        [buf appendFormat:@"%@:%u", player.name, player.stopSquareNumber];
+    }
+    
+    NSLog(@"%@", buf);
+}
+
+- (bool) someoneGetsGoal {
     for (SnakeAndLaddersPlayer *player in _players) {
         if (player.stopSquareNumber >= GOAL_SQUARE_NUMBER) {
             NSLog(@"%@ won!!", player.name);
@@ -105,6 +119,11 @@
     }
     
     return false;
+}
+
+- (void) removeAllPlayer {
+    _players = [[NSMutableArray alloc] init];
+    _activePlayerIndex = -1;
 }
 
 @end

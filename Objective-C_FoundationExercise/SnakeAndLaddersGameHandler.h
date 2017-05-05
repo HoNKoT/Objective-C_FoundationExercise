@@ -9,7 +9,9 @@
 @property unsigned int activePlayerIndex;
 
 - (void) rollDie;
-- (void) displayActivePlayer;
+- (void) displayAllPlayersScore;
 - (bool) someoneGetsGoal;
+- (void) addPlayer:(NSString *)name;
+- (void) removeAllPlayer;
 
 @end
