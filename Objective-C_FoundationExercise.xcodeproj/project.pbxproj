@@ -46,6 +46,12 @@
 		F5BB77851EB298F400385312 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB77841EB298F400385312 /* QuestionManager.m */; };
 		F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB779A1EB29A1F00385312 /* QuestionFactory.m */; };
 		F5BB779E1EB29B1900385312 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BB779D1EB29B1900385312 /* Question.m */; };
+		F5ED07A31EBD1BE800EA5C4E /* Assignment14.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07A21EBD1BE800EA5C4E /* Assignment14.m */; };
+		F5ED07A71EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07A61EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.m */; };
+		F5ED07AA1EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07A91EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.m */; };
+		F5ED07AE1EBD1E3200EA5C4E /* SnakeEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07AD1EBD1E3200EA5C4E /* SnakeEvent.m */; };
+		F5ED07B11EBD1EC300EA5C4E /* JumpEventBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07B01EBD1EC300EA5C4E /* JumpEventBase.m */; };
+		F5ED07B41EBD217D00EA5C4E /* LadderEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED07B31EBD217D00EA5C4E /* LadderEvent.m */; };
 		F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0255A1EB7EED8005D255A /* Assignment08.m */; };
 		F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F0255D1EB7EEEF005D255A /* Pizza.m */; };
 /* End PBXBuildFile section */
@@ -144,6 +150,19 @@
 		F5BB779A1EB29A1F00385312 /* QuestionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionFactory.m; sourceTree = "<group>"; };
 		F5BB779C1EB29B1900385312 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
 		F5BB779D1EB29B1900385312 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		F5ED07A11EBD1BE800EA5C4E /* Assignment14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment14.h; sourceTree = "<group>"; };
+		F5ED07A21EBD1BE800EA5C4E /* Assignment14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment14.m; sourceTree = "<group>"; };
+		F5ED07A51EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeAndLaddersGameHandler.h; sourceTree = "<group>"; };
+		F5ED07A61EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeAndLaddersGameHandler.m; sourceTree = "<group>"; };
+		F5ED07A81EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeAndLaddersPlayer.h; sourceTree = "<group>"; };
+		F5ED07A91EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeAndLaddersPlayer.m; sourceTree = "<group>"; };
+		F5ED07AB1EBD1D0100EA5C4E /* JumpEventDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpEventDelegate.h; sourceTree = "<group>"; };
+		F5ED07AC1EBD1E3200EA5C4E /* SnakeEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeEvent.h; sourceTree = "<group>"; };
+		F5ED07AD1EBD1E3200EA5C4E /* SnakeEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnakeEvent.m; sourceTree = "<group>"; };
+		F5ED07AF1EBD1EC300EA5C4E /* JumpEventBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpEventBase.h; sourceTree = "<group>"; };
+		F5ED07B01EBD1EC300EA5C4E /* JumpEventBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpEventBase.m; sourceTree = "<group>"; };
+		F5ED07B21EBD217D00EA5C4E /* LadderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LadderEvent.h; sourceTree = "<group>"; };
+		F5ED07B31EBD217D00EA5C4E /* LadderEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LadderEvent.m; sourceTree = "<group>"; };
 		F5F025591EB7EED8005D255A /* Assignment08.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment08.h; sourceTree = "<group>"; };
 		F5F0255A1EB7EED8005D255A /* Assignment08.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment08.m; sourceTree = "<group>"; };
 		F5F0255C1EB7EEEF005D255A /* Pizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizza.h; sourceTree = "<group>"; };
@@ -297,6 +316,7 @@
 		F58375CC1EAEB7F10095D6FB /* Objective-C_FoundationExercise */ = {
 			isa = PBXGroup;
 			children = (
+				F5ED07A01EBD1BCB00EA5C4E /* assignment14and15 */,
 				F567E1031EBBE887009C4947 /* assignment13 */,
 				F567E0E31EBA8E48009C4947 /* assignment11and12 */,
 				F567E0D01EBA7BA7009C4947 /* assignment10 */,
@@ -359,6 +379,26 @@
 				F5BB779D1EB29B1900385312 /* Question.m */,
 			);
 			name = assignment05;
+			sourceTree = "<group>";
+		};
+		F5ED07A01EBD1BCB00EA5C4E /* assignment14and15 */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED07A11EBD1BE800EA5C4E /* Assignment14.h */,
+				F5ED07A21EBD1BE800EA5C4E /* Assignment14.m */,
+				F5ED07A51EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.h */,
+				F5ED07A61EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.m */,
+				F5ED07A81EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.h */,
+				F5ED07A91EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.m */,
+				F5ED07AB1EBD1D0100EA5C4E /* JumpEventDelegate.h */,
+				F5ED07AF1EBD1EC300EA5C4E /* JumpEventBase.h */,
+				F5ED07B01EBD1EC300EA5C4E /* JumpEventBase.m */,
+				F5ED07AC1EBD1E3200EA5C4E /* SnakeEvent.h */,
+				F5ED07AD1EBD1E3200EA5C4E /* SnakeEvent.m */,
+				F5ED07B21EBD217D00EA5C4E /* LadderEvent.h */,
+				F5ED07B31EBD217D00EA5C4E /* LadderEvent.m */,
+			);
+			name = assignment14and15;
 			sourceTree = "<group>";
 		};
 		F5F025581EB7EEBF005D255A /* assignment08 */ = {
@@ -432,12 +472,14 @@
 				F5063E4E1EB40EDC00291529 /* Doctor.m in Sources */,
 				F5063E411EB3E7E000291529 /* Dice.m in Sources */,
 				F5063E511EB40EED00291529 /* Patient.m in Sources */,
+				F5ED07A71EBD1C9C00EA5C4E /* SnakeAndLaddersGameHandler.m in Sources */,
 				F52EF5B01EB148E8008B075B /* Assignment04.m in Sources */,
 				F58375F81EAEC5F00095D6FB /* Assignment02.m in Sources */,
 				F52EF5A91EB13A0B008B075B /* AdditionQuestion.m in Sources */,
 				F567E1021EBBDF36009C4947 /* DeliveryCar.m in Sources */,
 				F567E0DF1EBA8052009C4947 /* AmazonPaymentService.m in Sources */,
 				F567E0F61EBAA12C009C4947 /* Manager.m in Sources */,
+				F5ED07A31EBD1BE800EA5C4E /* Assignment14.m in Sources */,
 				F567E0DC1EBA802B009C4947 /* PaypalPaymentService.m in Sources */,
 				F5063E441EB3EA6600291529 /* ThreelowPlayer.m in Sources */,
 				F5BB779B1EB29A1F00385312 /* QuestionFactory.m in Sources */,
@@ -448,6 +490,7 @@
 				F5F0255B1EB7EED8005D255A /* Assignment08.m in Sources */,
 				F52EF5B31EB14A1E008B075B /* ContactList.m in Sources */,
 				F567E0E61EBA8E5A009C4947 /* Assignment11.m in Sources */,
+				F5ED07B41EBD217D00EA5C4E /* LadderEvent.m in Sources */,
 				F567E0ED1EBA99B5009C4947 /* HateAnchovieManager.m in Sources */,
 				F567E0C91EBA777E009C4947 /* FriendlyGreetingDecider.m in Sources */,
 				F58375D71EAEB95B0095D6FB /* InputUtil.m in Sources */,
@@ -464,12 +507,15 @@
 				F5BB779E1EB29B1900385312 /* Question.m in Sources */,
 				F5BB77821EB2988000385312 /* Assignment05.m in Sources */,
 				F5063E3E1EB3E79A00291529 /* Assignment06.m in Sources */,
+				F5ED07AE1EBD1E3200EA5C4E /* SnakeEvent.m in Sources */,
 				F567E0D91EBA7F2D009C4947 /* StripePaymentService.m in Sources */,
 				F5F0255E1EB7EEEF005D255A /* Pizza.m in Sources */,
 				F58375F41EAEC1520095D6FB /* BaseAssignment.m in Sources */,
 				F567E0FC1EBBD4DB009C4947 /* GoodManManager.m in Sources */,
 				F567E0D31EBA7BBC009C4947 /* Assignment10.m in Sources */,
 				F567E0F91EBBCD65009C4947 /* Kitchen.m in Sources */,
+				F5ED07AA1EBD1CB300EA5C4E /* SnakeAndLaddersPlayer.m in Sources */,
+				F5ED07B11EBD1EC300EA5C4E /* JumpEventBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
